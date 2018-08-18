@@ -1,5 +1,6 @@
 # This file must be used with "source bin/activate" *from bash*
 # you cannot run it directly
+export FLASK_APP=microblog.py
 
 deactivate () {
     unset -f pydoc >/dev/null 2>&1
@@ -40,7 +41,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/jp/web-development-projects/microblog_v2/venv"
+VIRTUAL_ENV="/home/jp/web-development-projects/microblog/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

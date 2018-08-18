@@ -56,8 +56,9 @@ if not app.debug:
     app.logger.info('Microblog startup')
     
 
-@babel.localselector
+@babel.localeselector
 def get_locale():
-    return request.accept_languages.best_match(app.config['LANGUAGES'])
+    #return request.accept_languages.best_match(app.config['LANGUAGES'])
+    return 'sw'
 
 from app import routes, models, errors

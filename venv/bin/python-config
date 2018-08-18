@@ -1,4 +1,4 @@
-#!/home/jp/web-development-projects/microblog_v2/venv/bin/python
+#!/home/jp/web-development-projects/microblog/venv/bin/python
 
 import sys
 import getopt
