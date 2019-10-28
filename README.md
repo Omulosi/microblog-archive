@@ -1,6 +1,6 @@
 **Project**: microblog
 
-**Description**: A poor man's clone of twitter. This project follows the [Flask Mega Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) by Miguel Grinberg.
+**Description**: A poor man's clone of twitter.
 
 ## Getting Started
 
